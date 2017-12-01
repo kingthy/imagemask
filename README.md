@@ -58,3 +58,6 @@ var file = mask.revealFile(canvas);       //file.name = 文件名称， file.
 >>* 包含一张美女图片的风景图片
   ![](https://ipfs.io/ipfs/QmNUiD81fU7ypgqkrrUrJVasmACmEQ3wbfEQte9Js78ou1)
   
+
+*  参考代码
+PixelJihad  https://github.com/oakes/PixelJihad
