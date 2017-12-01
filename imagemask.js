@@ -76,8 +76,8 @@ var ImageMask = function(opts){
 
 	if(opts.mixCount < 1)opts.mixCount = 1;
 	if(opts.mixCount > 5)opts.mixCount = 5;
-	if(opts.charSize % 4 != 0)opts.charSize += 4 - (opts.charSize % 4);
-	if(opts.lengthSize % 4 != 0)opts.lengthSize += 4 - (opts.lengthSize % 4);
+	if(opts.charSize % opts.mixCount != 0)opts.charSize += opts.mixCount - (opts.charSize % opts.mixCount);
+	if(opts.lengthSize % opts.mixCount != 0)opts.lengthSize += opts.mixCount - (opts.lengthSize % opts.mixCount);
 
 	this.opts = opts;
 }
