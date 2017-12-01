@@ -51,10 +51,10 @@ var canvas = document.getElementById('canvas');
 var file = mask.revealFile(canvas);       //file.name = 文件名称， file.data = 文件数据
 ```
 
-* 示例图片
-  * 包含一章小说的风景图片
+>* 示例图片
+>>* 包含一章小说的风景图片
   ![](https://ipfs.io/ipfs/QmQnHuGoKP3ZTyixygndWa4hXfhRKZ18ZgkipeqbUeQpWg)
   
-  * 包含一张美女图片的风景图片
+>>* 包含一张美女图片的风景图片
   ![](https://ipfs.io/ipfs/QmNUiD81fU7ypgqkrrUrJVasmACmEQ3wbfEQte9Js78ou1)
   
